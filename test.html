@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+      crossorigin="anonymous">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/animate.min.css">
+      <style media="screen">
+        .senamSol .image {
+          -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        -webkit-transition: box-shadow 5s;
+        transition: box-shadow 5s;
+        -webkit-transition: border 3s;
+        transition: border 3s;
+        position: absolute;
+        margin-top: 6rem;
+        -webkit-box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, .1);
+            -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+            -webkit-animation: float 6s ease-in-out infinite;
+            animation: float 6s ease-in-out infinite
+                }
+
+                @-webkit-keyframes float {
+          0% {
+            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+            -webkit-transform: translatey(0px);
+                    transform: translatey(0px);
+          }
+          50% {
+            box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+            -webkit-transform: translatey(-20px);
+                    transform: translatey(-20px);
+          }
+          100% {
+            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+            -webkit-transform: translatey(0px);
+                    transform: translatey(0px);
+          }
+        }
+
+        @keyframes float {
+          0% {
+            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+            -webkit-transform: translatey(0px);
+                    transform: translatey(0px);
+          }
+          50% {
+            box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+            -webkit-transform: translatey(-20px);
+                    transform: translatey(-20px);
+          }
+          100% {
+            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+            -webkit-transform: translatey(0px);
+                    transform: translatey(0px);
+          }
+        }
+
+        .senamSol .content {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.senamSol p {
+  color: #5c6269;
+    font-size: 1.125rem;
+    margin-top: 0;
+}
+
+.senamSol h5{
+  left:40%;
+  text-align: center;
+  position: absolute;
+  bottom:0px;
+  background:#fff;
+  white-space:nowrap;
+  font-weight:500;
+  transform:translate(-50%,-10px)}
+  .senamSol .pasvu {
+    opacity: 0 !important;
+  }
+  .senamSol .visible {
+    opacity: 1;
+  }
+  .senamSol a {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #000;
+  }
+      </style>
+  </head>
+  <body>
+    <div class="container senamSol">
+      <div class="row mt-5" style="height:75px;padding-top:00px;">
+        <div id="userExp" class="col animated pasvu" >
+          <p>Implement engaging and personalized guides to walk users through
+          your system</p>
+          <span>Learn more</span> <i class="fas fa-arrow-down text-center"></i>
+        </div>
+        <div id="userRet" class="col animated pasvu">
+          <p>Train your users on new features and avoid confusion and keep them engaged in your application. </p>
+        </div>
+        <div id="userO" class="col animated pasvu">
+          <p>Successfuly onboard your users from day one with intuitive step by step walkthroughs.</p>
+        </div>
+        <div id="userSup" class="col animated pasvu">
+          <p>Provide users self-support to reduce the time and money spent into answering their requests for support. </p>
+        </div>
+        <div id="empTrin" class="col animated pasvu">
+          <p>Improve your employees productivity by providing an efficient and interactive training system. </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col" style="position:relative;height:350px">
+          <div class="">
+            <a id="userExpI" href="user-experience.html">
+              <img src="images/userExp.png" alt="userExp" class="img-fluid image">
+              <h5 class="mt-5">User experience</h5>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="">
+            <a href="user-retention.html" id="userRetI">
+              <img src="images/userRet.png" alt="userRet" class="img-fluid image">
+              <h5 class="mt-3">User retention <br>and engagement</h5>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="">
+            <a href="user-onboarding.html" id="userOI">
+              <img src="images/userO.png" alt="userO" class="img-fluid image">
+              <h5 class="mt-3">User onboarding</h5>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="">
+            <a id="userSupI" href="user-support.html">
+              <img src="images/userSup.png" alt="userSup" class="img-fluid image">
+              <h5 class="mt-3">User support</h5>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="">
+            <a id="empTrinI" href="employee-training.html">
+              <img src="images/empTrin.png" alt="empTrin" class="img-fluid image">
+              <h5 class="mt-3">Employee Training</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-carousel-3d@0.1.20/dist/vue-carousel-3d.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    $( "#userExpI" ).mouseover(function(){
+      $("#userExp").removeClass("pasvu rotateOutDownLeft");
+      $("#userExp").addClass("visible rotateInUpLeft");
+    });
+    $( "#userRetI" ).mouseover(function(){
+      $("#userRet").removeClass("pasvu rotateOutDownLeft");
+      $("#userRet").addClass("visible rotateInUpLeft");
+    });
+    $( "#userOI" ).mouseover(function(){
+      $("#userO").removeClass("pasvu rotateOutDownLeft");
+      $("#userO").addClass("visible rotateInUpLeft");
+    });
+    $( "#userSupI" ).mouseover(function(){
+      $("#userSup").removeClass("pasvu rotateOutDownLeft");
+      $("#userSup").addClass("visible rotateInUpLeft");
+    });
+    $( "#empTrinI" ).mouseover(function(){
+      $("#empTrin").removeClass("pasvu rotateOutDownLeft");
+      $("#empTrin").addClass("visible rotateInUpLeft");
+    });
+    $( "#userExpI" ).mouseout(function() {
+      $("#userExp").removeClass("rotateInUpLeft visible");
+      $("#userExp").addClass("pasvu rotateOutDownLeft");
+    });
+    $( "#userRetI" ).mouseout(function() {
+      $("#userRet").removeClass("rotateInUpLeft visible");
+      $("#userRet").addClass("pasvu rotateOutDownLeft");
+    });
+    $( "#userOI" ).mouseout(function() {
+      $("#userO").removeClass("rotateInUpLeft visible");
+      $("#userO").addClass("pasvu rotateOutDownLeft");
+    });
+    $( "#userSupI" ).mouseout(function() {
+      $("#userSup").removeClass("rotateInUpLeft visible");
+      $("#userSup").addClass("pasvu rotateOutDownLeft");
+    });
+    $( "#empTrinI" ).mouseout(function() {
+      $("#empTrin").removeClass("rotateInUpLeft visible");
+      $("#empTrin").addClass("pasvu rotateOutDownLeft");
+    });
+    </script>
+  </body>
+</html>
